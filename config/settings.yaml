@@ -1,0 +1,4 @@
+alpha_vantage:
+  api_key: "API_KEY"
+  interval: "1min"
+  output_size: "compact"
