@@ -36,16 +36,20 @@ statistical-analysis-microstructure/
 •	- ADF test summary and interpretation
 •	- 5-step ahead volatility forecast using GARCH
 ⚙️ Installation
+
 1. Clone the repo:
 git clone https://github.com/EkantheswarB/statistical-analysis-financial-data.git
 cd statistical-analysis-microstructure
+
 2. Set up a conda environment:
 conda create -n finance-env python=3.10
 conda activate finance-env
 pip install -r requirements.txt
+
 3. Set your Alpha Vantage API key as an environment variable:
 export ALPHA_VANTAGE_API_KEY="your_api_key_here"  # For Linux/macOS
 set ALPHA_VANTAGE_API_KEY="your_api_key_here"    # For Windows CMD
+
 4. Run the dashboard:
 streamlit run dashboard/app.py
 📦 Dependencies
@@ -61,6 +65,7 @@ streamlit run dashboard/app.py
 •	- Advanced anomaly models (e.g., Isolation Forest)
 •	- Regime classification based on volatility shifts
 •	- Multi-stock correlation and co-integration analysis
+
 👨‍💻 Author
 Ekantheswar Bandarupalli
 LinkedIn: https://linkedin.com/in/ekantheswar
